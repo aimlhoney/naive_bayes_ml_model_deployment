@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+	<TITLE> Spam Or Ham Detection</TITLE>
+</HEAD>
+
+<BODY>
+	<H1><Center>Detect Spam or Ham Email</Center></H1>
+	<p>
+		<Center>
+			<Form action = "{{'detect'}}" method = "post">
+				<p>
+					<textarea rows="10" cols="50" required = "required" name = "msg" placeholder="Enter or Paste your Email Here to Detect For Spam Or Not">{{prevMsg}}</textarea>
+				</p>
+				<p>
+					<input type="submit" value="Check For Spam Or Ham Email" /> 
+				</p>
+
+			</Form>
+			<span>{{result}}<span>
+		</Center>
+	</p>
+</BODY>
+</HTML>
